@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dagster_dlt_observer"
+version = "0.1.0"
+description = "Dagster project for observing DLT pipelines and tables"
+dependencies = [
+    "dagster",
+    "dagster-cloud",
+    "databricks-sql-connector",
+    "requests"
+]

@@ -1,0 +1,6 @@
+branch_deployments:
+  enabled: true
+
+code_locations:
+  dagster_dlt_observer:
+    python_package: dagster_dlt_observer
